@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="scoreboard.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="papa">
+    <div class="container">
+        
+        <div class="Home">
+            <h1 class="head">HOME</h1>
+            <div class="display" id="screen1">0</div>
+            <div class="pointer">
+                <button class="btn" id="p1" onclick="plus1()">+1</button>
+                <button class="btn" id="p2" onclick="plus2()">+2</button>
+                <button class="btn" id="p3" onclick="plus3()">+3</button>
+            </div>
+        </div>
+        <div class="Guest">
+            <h1 class="head">GUEST</h1>
+             <div class="display" id="screen2">0</div>
+             <div class="pointer">
+                <button class="btn" id="p4" onclick="plus4()">+1</button>
+                <button class="btn" id="p5" onclick="plus5()">+2</button>
+                <button class="btn" id="p6" onclick="plus6()">+3</button>
+            </div>
+        
+        </div>
+       
+    </div>
+    <div class="divide">
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+    </div>
+    <script src="scoreboard.js"></script>
+</body>
+</html>
